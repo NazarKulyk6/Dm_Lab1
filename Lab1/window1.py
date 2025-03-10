@@ -87,3 +87,4 @@ Label(root, bg="#98E5FE", text="Множини", font="Arial 14").place(x=295, y
 Label(root, bg="#98E5FE", text="A:", font="Arial 12").place(x=280, y=440)
 Label(root, bg="#98E5FE", text="B:", font="Arial 12").place(x=280, y=470)
 Label(root, bg="#98E5FE", text="C:", font="Arial 12").place(x=280, y=500)
+root.mainloop()

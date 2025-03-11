@@ -13,7 +13,7 @@ def a_rand(text, min_entry, max_entry, root):
     min_value = int(min_entry.get())
     max_value = int(max_entry.get())
     a.update(random.sample(range(min_value, max_value + 1), num))
-    Label(root, bg="#98E5FE", text=str(a), font="Arial 12").place(x=315, y=440)
+    Label(root, bg="#0e427d", text=str(a), font="Arial 12").place(x=755, y=440)
 
 def b_rand(text, min_entry, max_entry, root):
     b.clear()
@@ -21,7 +21,7 @@ def b_rand(text, min_entry, max_entry, root):
     min_value = int(min_entry.get())
     max_value = int(max_entry.get())
     b.update(random.sample(range(min_value, max_value + 1), num))
-    Label(root, bg="#98E5FE", text=str(b), font="Arial 12").place(x=315, y=470)
+    Label(root, bg="#0e427d", text=str(b), font="Arial 12").place(x=755, y=470)
 
 def c_rand(text, min_entry, max_entry, root):
     c.clear()
@@ -29,7 +29,7 @@ def c_rand(text, min_entry, max_entry, root):
     min_value = int(min_entry.get())
     max_value = int(max_entry.get())
     c.update(random.sample(range(min_value, max_value + 1), num))
-    Label(root, bg="#98E5FE", text=str(c), font="Arial 12").place(x=315, y=500)
+    Label(root, bg="#0e427d", text=str(c), font="Arial 12").place(x=755, y=500)
 
 def u_gen(min_entry, max_entry):
     u.clear()
@@ -41,19 +41,19 @@ def u_gen(min_entry, max_entry):
 def a_write(input, root):
     for i in input.get().split(','):
         a.add(int(i))
-    Label(root, bg="#98E5FE", text=str(a), font="Arial 12").place(x=315, y=440)
+    Label(root, bg="#0e427d", text=str(a), font="Arial 12").place(x=755, y=440)
 
 def b_write(input, root):
     b.clear()
     for i in input.get().split(','):
         b.add(int(i))
-    Label(root, bg="#98E5FE", text=str(b), font="Arial 12").place(x=315, y=470)
+    Label(root, bg="#0e427d", text=str(b), font="Arial 12").place(x=755, y=470)
 
 def c_write(input, root):
     c.clear()
     for i in input.get().split(','):
         c.add(int(i))
-    Label(root, bg="#98E5FE", text=str(c), font="Arial 12").place(x=315, y=500)
+    Label(root, bg="#0e427d", text=str(c), font="Arial 12").place(x=755, y=500)
 
 def step1(a, b, u):
     not_b = u - b
